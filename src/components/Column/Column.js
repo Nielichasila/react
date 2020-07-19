@@ -9,7 +9,7 @@ import {settings} from '../../data/dataStore';
 class Column extends React.Component {
   
   static propTypes = {
-    cards: PropTypes.node.isRequired,
+    cards: PropTypes.array,
     icon: PropTypes.node,
     title: PropTypes.string.isRequired,
     addCard: PropTypes.func,
